@@ -1,0 +1,111 @@
+﻿@model List<models.modeldata>
+<link href="~/assets/vendors/mdi/css/materialdesignicons.min.css" rel="stylesheet" />
+<link href="~/assets/vendors/css/vendor.bundle.base.css" rel="stylesheet" />
+<link href="~/assets/css/style.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css">
+<div class="container-scroller">
+    @Html.Partial("~/Views/layout/_navbar.cshtml")
+    <div class="container-fluid page-body-wrapper">
+        @Html.Partial("~/Views/layout/_sidebar.cshtml")
+        <div class="main-panel">
+            <div class="content-wrapper">
+                <div class="page-header">
+                    <h3 class="page-title"> Đơn hàng đã thanh toán </h3>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <a href="#">
+                                    <i class="fas fa-file-excel"></i> Xuất excel
+                                </a>
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 grid-margin stretch-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <table id="example" class="table table-bordered" style="justify-content:center; text-align:center">
+                                    <thead>
+                                        <tr>
+                                            <th> ID </th>
+                                            <th> Tên khách hàng </th>
+                                            <th> Ngày tạo </th>
+                                            <th> Trạng thái </th>
+                                            <th> Action </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @if (Model != null && Model.Count > 0)
+                                        {
+                                            int id = 1;
+                                            foreach (var modeldataitem in Model)
+                                            {
+                                                <tr>
+                                                    <td>@id</td>
+                                                    <td>@modeldataitem.khach_hang.hovaten</td>
+                                                    <td>@modeldataitem.DonHangs.ngaytao.ToString("dd/MM/yyyy")</td>
+                                                    <td>@modeldataitem.DonHangs.trangthai</td>
+                                                    <td>
+                                                        <a href="/chitietdonhang/index/?donHangId=@modeldataitem.DonHangs.id" class="btn btn-primary">
+                                                            Xem
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                id++;
+                                            }
+                                        }
+                                        else
+                                        {
+                                            <tr>
+                                                <td colspan="5">Không có quy định nào cả</td>
+                                            </tr>
+                                        }
+                                    </tbody>
+
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/assets/vendors/js/vendor.bundle.base.js"></script>
+<script src="~/assets/vendors/chart.js/chart.min.js"></script>
+<script src="~/assets/js/jquery.cookie.js"></script>
+<script src="~/assets/js/off-canvas.js"></script>
+<script src="~/assets/js/hoverable-collapse.js"></script>
+<script src="~/assets/js/misc.js"></script>
+<script src="~/assets/js/dashboard.js"></script>
+<script src="~/assets/js/todolist.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#example').DataTable({
+            "paging": true,
+            "lengthChange": true,
+            "searching": false,
+            "ordering": true,
+            "info": false,
+            "autoWidth": false,
+            "responsive": true,
+            "pageLength": 10,
+            "lengthMenu": [5, 10, 25, 50, 100],
+            "language": {
+                "paginate": {
+                    "next": '<i class="fas fa-chevron-right"></i>',
+                    "previous": '<i class="fas fa-chevron-left"></i>'
+                }
+            }
+        });
+    });
+</script>

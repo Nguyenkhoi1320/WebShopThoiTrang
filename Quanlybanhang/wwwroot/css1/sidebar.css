@@ -1,0 +1,14 @@
+﻿.sidebar.toggled {
+    display: none;
+}
+.sidebar {
+    transition: margin 0.3s;
+}
+
+    .sidebar.toggled {
+        margin-left: -450px; /* Điều chỉnh giá trị này dựa trên độ rộng của sidebar */
+    }
+
+body.sidebar-toggled .content-wrapper {
+    margin-left: 0;
+}

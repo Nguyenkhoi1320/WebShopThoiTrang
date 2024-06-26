@@ -1,0 +1,115 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Quanlybanhang
+build_property.RootNamespace = Quanlybanhang
+build_property.ProjectDir = D:\Quanlybanhang-master\Quanlybanhang\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Quanlybanhang-master\Quanlybanhang
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Quanlybanhang-master/Quanlybanhang/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Quanlybanhang-master/Quanlybanhang/Views/Cart/guidonhang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxndWlkb25oYW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Quanlybanhang-master/Quanlybanhang/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Quanlybanhang-master/Quanlybanhang/Views/Chitietdonhang/Chitietdonhangkh.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpdGlldGRvbmhhbmdcQ2hpdGlldGRvbmhhbmdraC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Quanlybanhang-master/Quanlybanhang/Views/Chitietdonhang/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpdGlldGRvbmhhbmdcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Quanlybanhang-master/Quanlybanhang/Views/Customer/customerdetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcY3VzdG9tZXJkZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Quanlybanhang-master/Quanlybanhang/Views/Donhang/Donhangkh.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uaGFuZ1xEb25oYW5na2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Quanlybanhang-master/Quanlybanhang/Views/Donhang/Huydon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uaGFuZ1xIdXlkb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Quanlybanhang-master/Quanlybanhang/Views/Donhang/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uaGFuZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Quanlybanhang-master/Quanlybanhang/Views/Donhang/orderdetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uaGFuZ1xvcmRlcmRldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Quanlybanhang-master/Quanlybanhang/Views/Giamgia/Addmagiamgia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lhbWdpYVxBZGRtYWdpYW1naWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Quanlybanhang-master/Quanlybanhang/Views/Giamgia/Addquydinh.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lhbWdpYVxBZGRxdXlkaW5oLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Quanlybanhang-master/Quanlybanhang/Views/Giamgia/MaGiamGia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lhbWdpYVxNYUdpYW1HaWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Quanlybanhang-master/Quanlybanhang/Views/Giamgia/QuyDinhGiamGia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lhbWdpYVxRdXlEaW5oR2lhbUdpYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Quanlybanhang-master/Quanlybanhang/Views/Giamgia/Updatequydinh.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lhbWdpYVxVcGRhdGVxdXlkaW5oLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Quanlybanhang-master/Quanlybanhang/Views/Home/changepassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjaGFuZ2VwYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Quanlybanhang-master/Quanlybanhang/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Quanlybanhang-master/Quanlybanhang/Views/Home/login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxsb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Quanlybanhang-master/Quanlybanhang/Views/Home/signup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzaWdudXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Quanlybanhang-master/Quanlybanhang/Views/Layout/_chat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0XF9jaGF0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Quanlybanhang-master/Quanlybanhang/Views/Layout/_header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0XF9oZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Quanlybanhang-master/Quanlybanhang/Views/Layout/_main.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0XF9tYWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Quanlybanhang-master/Quanlybanhang/Views/Layout/_navbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0XF9uYXZiYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Quanlybanhang-master/Quanlybanhang/Views/Layout/_sidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0XF9zaWRlYmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

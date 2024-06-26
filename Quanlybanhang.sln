@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quanlybanhang", "Quanlybanhang\Quanlybanhang.csproj", "{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "models", "models\models.csproj", "{CF959D97-0CAE-43C3-AAEF-E12A47306C6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "service", "service\service.csproj", "{575CE289-607D-4F41-845C-6F0B4C1448DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF959D97-0CAE-43C3-AAEF-E12A47306C6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF959D97-0CAE-43C3-AAEF-E12A47306C6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF959D97-0CAE-43C3-AAEF-E12A47306C6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF959D97-0CAE-43C3-AAEF-E12A47306C6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{575CE289-607D-4F41-845C-6F0B4C1448DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{575CE289-607D-4F41-845C-6F0B4C1448DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{575CE289-607D-4F41-845C-6F0B4C1448DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{575CE289-607D-4F41-845C-6F0B4C1448DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F2F93B7-45C4-417E-9D64-98C840599072}
+	EndGlobalSection
+EndGlobal

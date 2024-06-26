@@ -1,0 +1,53 @@
+﻿/* Base styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left; /* Adjust as needed */
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Table body stripes (optional) */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Action buttons */
+.action a {
+    display: inline-block;
+    margin-right: 5px;
+    color: #333;
+}
+
+    .action a:hover {
+        color: #007bff;
+    }
+
+/* Pagination (optional) */
+.pagination {
+    justify-content: center;
+}
+
+    .pagination .page-item.active .page-link {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+
+/* Media queries (optional) */
+@media (max-width: 768px) {
+    table {
+        display: block;
+        overflow-x: auto;
+    }
+
+    th, td {
+        white-space: nowrap; /* Prevent wrapping on small screens */
+    }
+}

@@ -1,0 +1,82 @@
+﻿@model models.modeldata
+<link href="~/assets/vendors/mdi/css/materialdesignicons.min.css" rel="stylesheet" />
+<link href="~/assets/vendors/css/vendor.bundle.base.css" rel="stylesheet" />
+<link href="~/assets/css/style.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<div class="container-scroller">
+    @Html.Partial("~/Views/layout/_navbar.cshtml")
+    <div class="container-fluid page-body-wrapper">
+        @Html.Partial("~/Views/layout/_sidebar.cshtml")
+        <div class="main-panel">
+            <div class="content-wrapper">
+                <div class="page-header">
+                    <h3 class="page-title"> Thêm sản phẩm </h3>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <a href="/giamgia/magiamgia">
+                                    Quay lại
+                                </a>
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 grid-margin stretch-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <form Action="/product/addproducts" method="post">
+                                    <div class="form-group">
+                                        <label for="tensanpham">Tên sản phẩm:</label>
+                                        <input type="text" class="form-control" id="tensanpham" name="tensanpham" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="giaban">Giá bán:</label>
+                                        <input type="number" class="form-control" id="giaban" name="giaban" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="mota">Mô tả:</label>
+                                        <input type="text" class="form-control" id="mota" name="mota" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="soluongcon">Số lượng còn:</label>
+                                        <input type="number" class="form-control" id="soluongcon" name="soluongcon" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="anh">Ảnh:</label>
+                                        <input type="text" class="form-control" id="anh" name="anh" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="nhacungcap_id">Chọn nhà cung cấp:</label>
+                                        <select class="form-control" id="nhacungcap_id" name="nhacungcap_id">
+                                            @if (Model.nha_Cung_CapList != null && Model.nha_Cung_CapList.Count > 0)
+                                            {
+                                                foreach (var nha_Cung_Cap in Model.nha_Cung_CapList)
+                                                {
+                                                    <option value="@nha_Cung_Cap.id">@nha_Cung_Cap.tennhancungcap</option>
+                                                }
+                                            }
+                                        </select>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-primary">Thêm</button>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<script src="~/assets/vendors/js/vendor.bundle.base.js"></script>
+<script src="~/assets/vendors/chart.js/chart.min.js"></script>
+<script src="~/assets/js/jquery.cookie.js"></script>
+<script src="~/assets/js/off-canvas.js"></script>
+<script src="~/assets/js/hoverable-collapse.js"></script>
+<script src="~/assets/js/misc.js"></script>
+<script src="~/assets/js/dashboard.js"></script>
+<script src="~/assets/js/todolist.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

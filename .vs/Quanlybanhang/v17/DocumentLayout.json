@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Quanlybanhang\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|d:\\quanlybanhang\\quanlybanhang\\controllers\\homecontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|solutionrelative:quanlybanhang\\controllers\\homecontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|d:\\quanlybanhang\\quanlybanhang\\quanlybanhang.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|solutionrelative:quanlybanhang\\quanlybanhang.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController1.cs",
+              "DocumentMoniker": "D:\\Quanlybanhang\\Quanlybanhang\\Controllers\\HomeController1.cs",
+              "RelativeDocumentMoniker": "Quanlybanhang\\Controllers\\HomeController1.cs",
+              "ToolTip": "D:\\Quanlybanhang\\Quanlybanhang\\Controllers\\HomeController1.cs",
+              "RelativeToolTip": "Quanlybanhang\\Controllers\\HomeController1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T14:55:59.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Quanlybanhang",
+              "DocumentMoniker": "D:\\Quanlybanhang\\Quanlybanhang\\Quanlybanhang.csproj",
+              "RelativeDocumentMoniker": "Quanlybanhang\\Quanlybanhang.csproj",
+              "ToolTip": "D:\\Quanlybanhang\\Quanlybanhang\\Quanlybanhang.csproj",
+              "RelativeToolTip": "Quanlybanhang\\Quanlybanhang.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-26T14:55:42.379Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

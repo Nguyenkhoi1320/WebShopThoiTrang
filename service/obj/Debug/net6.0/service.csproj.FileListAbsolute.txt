@@ -43,3 +43,4 @@ D:\Quanlybanhang\service\obj\Debug\net6.0\service.dll
 D:\Quanlybanhang\service\obj\Debug\net6.0\refint\service.dll
 D:\Quanlybanhang\service\obj\Debug\net6.0\service.pdb
 D:\Quanlybanhang\service\obj\Debug\net6.0\ref\service.dll
+D:\Quanlybanhang\service\obj\Debug\net6.0\service.sourcelink.json

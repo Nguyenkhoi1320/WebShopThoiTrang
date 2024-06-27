@@ -51,51 +51,6 @@ function deleteQuantity(productId) {
         }
     });
 }
-/*function loadCartItems() {
-    $.ajax({
-        url: '/Cart/GetCartItemsJson',
-        type: 'GET',
-        success: function (data) {
-            $('#cartItems').empty();
-            if (Array.isArray(data) && data.length > 0) {
-                let totalQuantity = 0;
-                let totalAmount = 0;
-                let rowCounter = 1;
-                data.forEach(function (item) {
-                    $('#cartItems').append(
-                        `<tr>
-                        <td>${rowCounter}</td>
-                        <td>${item.productName}</td>
-                        <td>
-                            <div class="quantity-control">
-                                <button class="quantity-btn" onclick="deletequanty(${item.productId})">-</button>
-                                <span class="quantity">${item.quantity}</span>
-                                <button class="quantity-btn" onclick="update(${item.productId})">+</button>
-                            </div>
-                        </td>
-                        <td>${item.productPrice.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' })}</td>
-                        <td><img width="40" src="${item.imageUrl}" alt="Product Image"></td>
-                    </tr>`
-                    );
-                    rowCounter++;
-                    totalQuantity += item.quantity
-                    totalAmount += item.productPrice
-                });
-                $('.cartLink .product-count').text(totalQuantity);
-                $('.cartLink .cart-amunt').text(totalAmount.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' }));
-            } else {
-                $('#cartItems').append('<p>Không có sản phẩm nào trong giỏ hàng !.</p>');
-            }
-        },
-        error: function (error) {
-            console.log('Error: ', error);
-            alert('Failed to load cart items. Please try again later.');
-        }
-    });
-}*/
-
-
-
 function loadCartItems() {
     $.ajax({
         url: '/Cart/GetCartItemsJson',
@@ -119,7 +74,7 @@ function loadCartItems() {
                                 </div>
                             </td>
                             <td>${item.productPrice.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' })}</td>
-                            <td><img width="40" src="${item.imageUrl}" alt="Product Image"></td>
+                            <td><img width="40" src="${item.anhsp}" alt="Product Image"></td>
                         </tr>`
                     );
                     rowCounter++;

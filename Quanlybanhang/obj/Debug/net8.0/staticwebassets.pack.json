@@ -553,6 +553,10 @@
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
+      "Id": "D:\\Quanlybanhang\\Quanlybanhang\\wwwroot\\css\\cssfooter.css",
+      "PackagePath": "staticwebassets\\css\\cssfooter.css"
+    },
+    {
       "Id": "D:\\Quanlybanhang\\Quanlybanhang\\wwwroot\\css\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
     },

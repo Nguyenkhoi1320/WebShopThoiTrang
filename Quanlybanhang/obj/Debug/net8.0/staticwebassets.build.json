@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QBxBYP8oOzQg3/VlV0QDOefGBAH+YcmJrnJN/Mg1Bns=",
+  "Hash": "tF+e+ABySo44e68M6hPLB1oBz2aNfMTFXY9Lfa5bvZ8=",
   "Source": "Quanlybanhang",
   "BasePath": "_content/Quanlybanhang",
   "Mode": "Default",
@@ -2466,6 +2466,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "D:\\Quanlybanhang\\Quanlybanhang\\wwwroot\\css\\cssfooter.css",
+      "SourceId": "Quanlybanhang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Quanlybanhang\\Quanlybanhang\\wwwroot\\",
+      "BasePath": "_content/Quanlybanhang",
+      "RelativePath": "css/cssfooter.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\cssfooter.css"
     },
     {
       "Identity": "D:\\Quanlybanhang\\Quanlybanhang\\wwwroot\\css\\font-awesome.min.css",

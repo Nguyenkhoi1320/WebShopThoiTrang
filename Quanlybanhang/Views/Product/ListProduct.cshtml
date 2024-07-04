@@ -56,10 +56,10 @@
                                                 <td>
                                                     @string.Format("{0:N0} VNĐ", @san_pham.giaban)
                                                 </td>
-                                                <td>@san_pham.mota</td>
+                                                <td style="white-space:break-spaces">@san_pham.mota</td>
                                                 <td>@san_pham.soluongcon</td>
                                                 <td>@san_pham.nhacungcap_id</td>
-                                                <td><img src="@san_pham.anh" alt="#"/> </td>
+                                                <td><img src="@san_pham.anh" style="width: 60px; height: 80px; border-radis:5%;" alt="#"/> </td>
                                                 <td>
                                                     <a href="/product/Xoasanpham/?id=@san_pham.id" class="btn btn-danger" onclick="return confirmDelete();">
                                                         <i class="fas fa-trash-alt"></i> Xoá

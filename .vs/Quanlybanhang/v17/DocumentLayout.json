@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "D:\\Quanlybanhang\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|d:\\quanlybanhang\\quanlybanhang\\wwwroot\\css\\style-prefix.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|solutionrelative:quanlybanhang\\wwwroot\\css\\style-prefix.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|d:\\quanlybanhang\\quanlybanhang\\views\\layout\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|solutionrelative:quanlybanhang\\views\\layout\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|d:\\quanlybanhang\\quanlybanhang\\views\\layout\\_main.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|solutionrelative:quanlybanhang\\views\\layout\\_main.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|d:\\quanlybanhang\\quanlybanhang\\views\\product\\listproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|solutionrelative:quanlybanhang\\views\\product\\listproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|d:\\quanlybanhang\\quanlybanhang\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|solutionrelative:quanlybanhang\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|d:\\quanlybanhang\\quanlybanhang\\wwwroot\\css\\cssfooter.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|solutionrelative:quanlybanhang\\wwwroot\\css\\cssfooter.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_main.cshtml",
-              "DocumentMoniker": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Layout\\_main.cshtml",
-              "RelativeDocumentMoniker": "Quanlybanhang\\Views\\Layout\\_main.cshtml",
-              "ToolTip": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Layout\\_main.cshtml",
-              "RelativeToolTip": "Quanlybanhang\\Views\\Layout\\_main.cshtml",
-              "ViewState": "AQIAAH8BAAAAAAAAAAAswKoBAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-04T03:05:28.139Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ListProduct.cshtml",
-              "DocumentMoniker": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Product\\ListProduct.cshtml",
-              "RelativeDocumentMoniker": "Quanlybanhang\\Views\\Product\\ListProduct.cshtml",
-              "ToolTip": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Product\\ListProduct.cshtml",
-              "RelativeToolTip": "Quanlybanhang\\Views\\Product\\ListProduct.cshtml",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAADkAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-04T03:00:17.218Z",
+              "Title": "cssfooter.css",
+              "DocumentMoniker": "D:\\Quanlybanhang\\Quanlybanhang\\wwwroot\\css\\cssfooter.css",
+              "RelativeDocumentMoniker": "Quanlybanhang\\wwwroot\\css\\cssfooter.css",
+              "ToolTip": "D:\\Quanlybanhang\\Quanlybanhang\\wwwroot\\css\\cssfooter.css",
+              "RelativeToolTip": "Quanlybanhang\\wwwroot\\css\\cssfooter.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-05T02:37:15.015Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "style-prefix.css",
-              "DocumentMoniker": "D:\\Quanlybanhang\\Quanlybanhang\\wwwroot\\css\\style-prefix.css",
-              "RelativeDocumentMoniker": "Quanlybanhang\\wwwroot\\css\\style-prefix.css",
-              "ToolTip": "D:\\Quanlybanhang\\Quanlybanhang\\wwwroot\\css\\style-prefix.css",
-              "RelativeToolTip": "Quanlybanhang\\wwwroot\\css\\style-prefix.css",
-              "ViewState": "AQIAAKUGAAAAAAAAAAAAwLQGAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-04T02:05:09.338Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Quanlybanhang\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Quanlybanhang\\Views\\Home\\Index.cshtml",
+              "Title": "_footer.cshtml",
+              "DocumentMoniker": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Layout\\_footer.cshtml",
+              "RelativeDocumentMoniker": "Quanlybanhang\\Views\\Layout\\_footer.cshtml",
+              "ToolTip": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Layout\\_footer.cshtml",
+              "RelativeToolTip": "Quanlybanhang\\Views\\Layout\\_footer.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-01T02:30:19.499Z",
+              "WhenOpened": "2024-07-05T02:35:12.175Z",
               "EditorCaption": ""
             }
           ]

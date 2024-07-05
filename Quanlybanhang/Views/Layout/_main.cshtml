@@ -385,7 +385,7 @@
                         {
                             foreach (var sanpham in Model.san_Phamlist)
                             {
-                                <div class="showcase">
+                                <div class="showcase" style="height:450px;">
                                     <div class="showcase-banner">
                                         <img src="@sanpham.anh"
                                              alt="Better Basics French Terry Sweatshorts" class="product-img default"
@@ -410,9 +410,9 @@
                                         </div>
                                     </div>
                                     <div class="showcase-content">
-                                        <a href="#" class="showcase-category">@sanpham.tensanpham</a>
+                                        <a href="#" style="display: block;overflow: hidden; white-space: nowrap; text-overflow: ellipsis;" class="showcase-category">@sanpham.tensanpham</a>
                                         <h3>
-                                            <a style="display: block;width: 200px;overflow: hidden; white-space: nowrap; text-overflow: ellipsis;" href="#" class="showcase-title">@sanpham.mota</a>
+                                            <a style="display: block;overflow: hidden; white-space: nowrap; text-overflow: ellipsis;" href="#" class="showcase-title">@sanpham.mota</a>
                                         </h3>
                                         <div class="showcase-rating">
                                             <ion-icon name="star"></ion-icon>

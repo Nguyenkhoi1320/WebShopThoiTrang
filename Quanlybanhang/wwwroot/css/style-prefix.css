@@ -1063,6 +1063,10 @@ body {
     font-size: var(--fs-9);
     font-weight: var(--weight-600);
     text-transform: uppercase;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    width: 157px;
 }
 
 .category-item-amount {
@@ -2583,6 +2587,7 @@ footer {
     .category-item {
         min-width: -webkit-calc(50% - 15px);
         min-width: calc(50% - 15px);
+        height:100px;
     }
 
 

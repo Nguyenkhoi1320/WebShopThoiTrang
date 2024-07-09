@@ -5,54 +5,25 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+<style>
+    .menu-title {
+        text-decoration: none;
+    }
+    .quantity {
+        padding: 10px;
+    }
+    .input-group{
+        justify-content:center;
+    }
+    .table-bordered{
+        text-align:center;
+    }
+    </style>
 <header>
-    <div class="header-top">
-        <div class="container">
-            <ul class="header-social-container">
-                <li>
-                    <a href="#" class="social-link">
-                        <ion-icon name="logo-facebook"></ion-icon>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="social-link">
-                        <ion-icon name="logo-twitter"></ion-icon>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="social-link">
-                        <ion-icon name="logo-instagram"></ion-icon>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="social-link">
-                        <ion-icon name="logo-linkedin"></ion-icon>
-                    </a>
-                </li>
-            </ul>
-            <div class="header-alert-news">
-                <p>
-                    <b>Free Shipping</b>
-                    This Week Order Over - $55
-                </p>
-            </div>
-            <div class="header-top-Actions">
-                <select name="currency">
-                    <option value="usd">USD &dollar;</option>
-                    <option value="eur">EUR &euro;</option>
-                </select>
-                <select name="language">
-                    <option value="en-US">English</option>
-                    <option value="es-ES">Espa&ntilde;ol</option>
-                    <option value="fr">Fran&ccedil;ais</option>
-                </select>
-            </div>
-        </div>
-    </div>
     <div class="header-main">
         <div class="container">
             <a href="#" class="header-logo">
-                <img src="./assets/images/logo/logo.svg" alt="Anon's logo" width="120" height="36">
+                <img src="/images/HKSHOP.png" style="width: 80px; border-radius:50%" ">
             </a>
             <div class="header-search-container">
                 <input type="search" name="search" class="search-field" placeholder="Enter your product name...">
@@ -396,8 +367,8 @@
                 </tr>
             </tbody>
         </table>
-        <a href="">Quay lại</a>
-        <a href="/Cart/xoa">Xoá tất cả</a>
+        <a href="/cart/index"><button>Quay lại</button></a>
+        <a href="/Cart/xoa"><button>Xoá tất cả</button></a>
     </div>
     <form Action="/Cart/ThanhToan" method="post">
         <div class="row justify-content-center">

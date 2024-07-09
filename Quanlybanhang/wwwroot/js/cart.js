@@ -64,8 +64,8 @@ function loadCartItems() {
                 data.forEach(function (item) {
                     $('#cartItems').append(
                         `<tr>
-                            <td>${rowCounter}</td>
-                            <td>${item.productName}</td>
+                            <td class="item-count" style="padding:20px">${rowCounter}</td>
+                            <td class="item-prdname" style="padding:20px">${item.productName}</td>
                             <td>
                                 <div class="input-group">
                                     <button class="btn btn-outline-secondary" onclick="deleteQuantity(${item.productId})">-</button>
@@ -73,8 +73,8 @@ function loadCartItems() {
                                     <button class="btn btn-outline-secondary" onclick="update(${item.productId})">+</button>
                                 </div>
                             </td>
-                            <td>${item.productPrice.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' })}</td>
-                            <td><img width="40" src="${item.anhsp}" alt="Product Image"></td>
+                            <td class="item-price" style="padding:20px">${item.productPrice.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' })}</td>
+                            <td class="item-img"><img width="40" src="${item.anhsp}" alt="Product Image" style="display:block; margin: 0 auto;"></td>
                         </tr>`
                     );
                     rowCounter++;

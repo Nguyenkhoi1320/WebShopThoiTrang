@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Quanlybanhang\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|d:\\quanlybanhang\\quanlybanhang\\views\\layout\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|solutionrelative:quanlybanhang\\views\\layout\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|d:\\quanlybanhang\\quanlybanhang\\wwwroot\\js\\cart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|solutionrelative:quanlybanhang\\wwwroot\\js\\cart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|d:\\quanlybanhang\\quanlybanhang\\wwwroot\\css\\cssfooter.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|solutionrelative:quanlybanhang\\wwwroot\\css\\cssfooter.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|d:\\quanlybanhang\\quanlybanhang\\views\\cart\\guidonhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|solutionrelative:quanlybanhang\\views\\cart\\guidonhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "cssfooter.css",
-              "DocumentMoniker": "D:\\Quanlybanhang\\Quanlybanhang\\wwwroot\\css\\cssfooter.css",
-              "RelativeDocumentMoniker": "Quanlybanhang\\wwwroot\\css\\cssfooter.css",
-              "ToolTip": "D:\\Quanlybanhang\\Quanlybanhang\\wwwroot\\css\\cssfooter.css",
-              "RelativeToolTip": "Quanlybanhang\\wwwroot\\css\\cssfooter.css",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAgwFcAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-08T02:31:47.575Z",
+              "DocumentIndex": 0,
+              "Title": "cart.js",
+              "DocumentMoniker": "D:\\Quanlybanhang\\Quanlybanhang\\wwwroot\\js\\cart.js",
+              "RelativeDocumentMoniker": "Quanlybanhang\\wwwroot\\js\\cart.js",
+              "ToolTip": "D:\\Quanlybanhang\\Quanlybanhang\\wwwroot\\js\\cart.js",
+              "RelativeToolTip": "Quanlybanhang\\wwwroot\\js\\cart.js",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwEwAAACOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-09T04:22:59.564Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_footer.cshtml",
-              "DocumentMoniker": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Layout\\_footer.cshtml",
-              "RelativeDocumentMoniker": "Quanlybanhang\\Views\\Layout\\_footer.cshtml",
-              "ToolTip": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Layout\\_footer.cshtml",
-              "RelativeToolTip": "Quanlybanhang\\Views\\Layout\\_footer.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAHAAAA",
+              "DocumentIndex": 1,
+              "Title": "guidonhang.cshtml",
+              "DocumentMoniker": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Cart\\guidonhang.cshtml",
+              "RelativeDocumentMoniker": "Quanlybanhang\\Views\\Cart\\guidonhang.cshtml",
+              "ToolTip": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Cart\\guidonhang.cshtml",
+              "RelativeToolTip": "Quanlybanhang\\Views\\Cart\\guidonhang.cshtml",
+              "ViewState": "AQIAAGYBAAAAAAAAAAArwHMBAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-05T02:35:12.175Z",
+              "WhenOpened": "2024-07-09T03:50:17.001Z",
               "EditorCaption": ""
             }
           ]

@@ -1437,3 +1437,53 @@ div.cart-collaterals ul.products li.product:hover .add_to_cart_button {
 .pagination > li > a, .pagination > li > span {
     color: #5a88ca;
 }
+.item-back {
+    background-color: #04AA6D; /* Green */
+    border-radius: 5px;
+    border: 3px solid darkgray;
+    color: white;
+    padding: 0 15px 0 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.item-back {
+    background-color: white;
+    color: black;
+    border: 2px solid #f44336;
+}
+
+    .item-back:hover {
+        background-color: #f44336;
+        color: white;
+    }
+.btn-add {
+    transition: all 0.3s ease;
+    border: 2px solid #a9a9af;
+    border-radius: 5px;
+    padding: 0 10px 0 10px;
+    font-weight: 500;
+    background-color: #a8f9b6;
+}
+    .btn-add:hover {
+        box-shadow: 0 12px 10px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        background-color: rgb(62,137,84,1);
+        color:white;
+    }
+.btn-extract {
+    border: 2px solid #a9a9af;
+    border-radius: 5px;
+    padding: 0 10px 0 10px;
+    font-weight: 500;
+    background-color: #ffdb5a;
+}
+    .btn-extract:hover {
+        box-shadow: 0 12px 10px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        background-color: #22c8e5;
+        color: white;
+    }

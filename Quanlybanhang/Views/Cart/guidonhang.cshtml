@@ -18,6 +18,34 @@
     .table-bordered{
         text-align:center;
     }
+    .btn-setcart{
+        display:flex;
+
+    }
+   .btn-back{
+        padding: 5px;
+        background-color: #0d6efd;
+        color: white;
+        opacity: 0.6;
+        transition: 0.3s;
+        display: inline-block;
+   }
+   .btn-back:hover{
+       opacity:1;
+        }
+
+    .btn-delete {
+        padding: 5px;
+        background-color: #f50000;
+        color: white;
+        opacity: 0.6;
+        transition: 0.3s;
+        display: inline-block;
+    }
+
+    .btn-delete:hover {
+            opacity: 1;
+        }
     </style>
 <header>
     <div class="header-main">
@@ -367,8 +395,11 @@
                 </tr>
             </tbody>
         </table>
-        <a href="/cart/index"><button>Quay lại</button></a>
-        <a href="/Cart/xoa"><button>Xoá tất cả</button></a>
+        <div class="btn-setcart">
+            <a href="/cart/index" style="text-decoration:none;margin:10px;border:1px solid #0d6efd;border-radius:5px;"><button class="btn-back">Quay lại</button></a>
+            <a href="/Cart/xoa" style="text-decoration:none;margin:10px;border:1px solid #f50000;;border-radius:5px;"><button class="btn-delete">Xoá tất cả</button></a>
+        </div>
+
     </div>
     <form Action="/Cart/ThanhToan" method="post">
         <div class="row justify-content-center">

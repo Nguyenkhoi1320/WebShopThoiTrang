@@ -27,20 +27,33 @@ namespace Quanlybanhang.Controllers
                 ViewData["id"] = id;
                 ViewData["hovaten"] = hovaten;
                 List<san_pham> listsanpham = san_PhamService.GetAllSanPham();
-                modeldata modeldata = new modeldata()
+                List<modeldata> modeldatas = new List<modeldata>();
+                foreach(var sanpham in listsanpham)
                 {
-                    san_Phamlist = listsanpham,
-                };
-                return View(modeldata);
+                    modeldata modeldata = new modeldata()
+                    {
+                        san_Pham = sanpham,
+                    };
+                    modeldatas.Add(modeldata);
+                }
+              
+                return View(modeldatas);
             }
             else
             {
                 List<san_pham> listsanpham = san_PhamService.GetAllSanPham();
-                modeldata modeldata = new modeldata()
+
+                List<modeldata> modeldatas = new List<modeldata>();
+
+                foreach (var sanpham in listsanpham)
                 {
-                    san_Phamlist = listsanpham,
-                };
-                return View(modeldata);
+                    modeldata modeldata = new modeldata()
+                    {
+                        san_Pham = sanpham,
+                    };
+                    modeldatas.Add(modeldata);
+                }
+                return View(modeldatas);
             }
         }
         public IActionResult signup()

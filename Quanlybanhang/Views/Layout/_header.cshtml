@@ -1,4 +1,5 @@
-﻿<style>
+﻿@model List<models.modeldata>
+<style>
     .menu-title{
         text-decoration:none;
     }
@@ -45,9 +46,23 @@
             </div>
             <div class="header-user-Actions">
                 <button class="Action-btn">
-                    <a href="/home/login">
-                        <ion-icon name="person-outline"></ion-icon>
-                    </a>
+              
+                @if (@ViewData["hovaten"] != null)
+                {
+                        <a style="text-decoration:none;" href="/user/logout">
+                        @ViewData["hovaten"]
+                        </a>
+                }
+                else
+                {
+                        <a href="/home/login">
+                            <ion-icon name="person-outline"></ion-icon>
+                        </a>
+                }
+            
+
+
+
                 </button>
 
                 <button class="Action-btn">

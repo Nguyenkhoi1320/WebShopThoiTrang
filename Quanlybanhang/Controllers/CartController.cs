@@ -46,6 +46,8 @@ namespace Quanlybanhang.Controllers
 
         public IActionResult Index()
         {
+            string hovaten = HttpContext.Session.GetString("hovaten");
+            ViewData["hovaten"] = hovaten;
             return View();
         }
         [HttpGet]

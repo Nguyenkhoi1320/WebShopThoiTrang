@@ -1,4 +1,4 @@
-﻿@model models.modeldata
+﻿@model List<models.modeldata>
 <main>
     <div class="banner">
         <div class="container">
@@ -54,20 +54,20 @@
     <div class="category">
         <div class="container">
             <div class="category-item-container has-scrollbar">
-                @if (Model.san_Phamlist != null && Model.san_Phamlist.Count > 0)
+                @if (Model != null && Model.Count > 0)
                 {
-                    foreach (var sanpham in Model.san_Phamlist)
+                    foreach (var sanpham in Model)
                     {
                         <div class="category-item">
                             <div class="category-img-box">
-                                <img src="@sanpham.anh" alt="hat & caps" width="30">
+                                <img src="@sanpham.san_Pham.anh" alt="hat & caps" width="30">
                             </div>
                             <div class="category-content-box">
                                 <div class="category-content-flex">
-                                    <h3 class="category-item-title">@sanpham.tensanpham</h3>
-                                    <p class="category-item-amount">(@sanpham.soluongcon)</p>
+                                    <h3 class="category-item-title">@sanpham.san_Pham.tensanpham</h3>
+                                    <p class="category-item-amount">(@sanpham.san_Pham.soluongcon)</p>
                                 </div>
-                                <a href="#" onclick="addTocart('@sanpham.id', '@sanpham.tensanpham', '@sanpham.giaban', '@sanpham.anh')" class="category-btn">Add to cart</a>
+                                <a href="#" onclick="addTocart('@sanpham.san_Pham.id', '@sanpham.san_Pham.tensanpham', '@sanpham.san_Pham.giaban', '@sanpham.san_Pham.anh')" class="category-btn">Add to cart</a>
                             </div>
                         </div>
                     }
@@ -381,16 +381,16 @@
                 <div class="product-main">
                     <h2 class="title">New Products</h2>
                     <div class="product-grid">
-                        @if (Model.san_Phamlist != null && Model.san_Phamlist.Count > 0)
+                        @if (Model != null && Model.Count > 0)
                         {
-                            foreach (var sanpham in Model.san_Phamlist)
+                            foreach (var sanpham in Model)
                             {
                                 <div class="showcase" style="height:450px;">
                                     <div class="showcase-banner">
-                                        <img src="@sanpham.anh"
+                                        <img src="@sanpham.san_Pham.anh"
                                              alt="Better Basics French Terry Sweatshorts" class="product-img default"
                                              width="300">
-                                        <img src="@sanpham.anh"
+                                        <img src="@sanpham.san_Pham.anh"
                                              alt="Better Basics French Terry Sweatshorts" class="product-img hover"
                                              width="300">
                                         <p class="showcase-badge angle black">sale</p>
@@ -399,7 +399,7 @@
                                                 <ion-icon name="heart-outline"></ion-icon>
                                             </button>
                                             <button class="btn-Action">
-                                                <a href="/product/productdetail?id=@sanpham.id">
+                                                <a href="/product/productdetail?id=@sanpham.san_Pham.id">
                                                     <ion-icon name="eye-outline"></ion-icon>
                                                 </a>
                                             </button>
@@ -407,14 +407,14 @@
                                                 <ion-icon name="repeat-outline"></ion-icon>
                                             </button>
                                             <button class="btn-Action">
-                                                <ion-icon onclick="addTocart('@sanpham.id', '@sanpham.tensanpham', '@sanpham.giaban', '@sanpham.anh')" name="bag-add-outline"></ion-icon>
+                                                <ion-icon onclick="addTocart('@sanpham.san_Pham.id', '@sanpham.san_Pham.tensanpham', '@sanpham.san_Pham.giaban', '@sanpham.san_Pham.anh')" name="bag-add-outline"></ion-icon>
                                             </button>
                                         </div>
                                     </div>
                                     <div class="showcase-content">
-                                        <a href="linkproductdetail" style="display: block;overflow: hidden; white-space: nowrap; text-overflow: ellipsis;" class="showcase-category">@sanpham.tensanpham</a>
+                                        <a href="linkproductdetail" style="display: block;overflow: hidden; white-space: nowrap; text-overflow: ellipsis;" class="showcase-category">@sanpham.san_Pham.tensanpham</a>
                                         <h3>
-                                            <a style="display: block;overflow: hidden; white-space: nowrap; text-overflow: ellipsis;" href="#" class="showcase-title">@sanpham.mota</a>
+                                            <a style="display: block;overflow: hidden; white-space: nowrap; text-overflow: ellipsis;" href="#" class="showcase-title">@sanpham.san_Pham.mota</a>
                                         </h3>
                                         <div class="showcase-rating">
                                             <ion-icon name="star"></ion-icon>
@@ -425,7 +425,7 @@
                                         </div>
                                         <div class="price-box">
                                             <p class="price">
-                                                @string.Format("{0:N0} VNĐ", sanpham.giaban)
+                                                @string.Format("{0:N0} VNĐ", sanpham.san_Pham.giaban)
                                             </p>
                                         </div>
                                     </div>

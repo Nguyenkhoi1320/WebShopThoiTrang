@@ -17,12 +17,17 @@ namespace Quanlybanhang.Controllers
         }  
         public IActionResult ProductDetail(int id)
         {
+            string hovaten = HttpContext.Session.GetString("hovaten");
+            ViewData["hovaten"] = hovaten;
             san_pham sp = san_PhamService.GetSanPhamById(id);
+            List<modeldata> modeldatas = new List<modeldata>();
+
             modeldata modeldata = new modeldata()
             {
                 san_Pham = sp
             };
-            return View(modeldata);
+            modeldatas.Add(modeldata);
+            return View(modeldatas);
         } 
         public IActionResult ListProduct()
         {

@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "D:\\Quanlybanhang\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|d:\\quanlybanhang\\quanlybanhang\\views\\cart\\guidonhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|solutionrelative:quanlybanhang\\views\\cart\\guidonhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|d:\\quanlybanhang\\quanlybanhang\\controllers\\donhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|solutionrelative:quanlybanhang\\controllers\\donhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|d:\\quanlybanhang\\quanlybanhang\\views\\product\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|solutionrelative:quanlybanhang\\views\\product\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|d:\\quanlybanhang\\quanlybanhang\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|solutionrelative:quanlybanhang\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|d:\\quanlybanhang\\quanlybanhang\\views\\donhang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|solutionrelative:quanlybanhang\\views\\donhang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|d:\\quanlybanhang\\quanlybanhang\\views\\donhang\\donhangkh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|solutionrelative:quanlybanhang\\views\\donhang\\donhangkh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|d:\\quanlybanhang\\quanlybanhang\\views\\product\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|solutionrelative:quanlybanhang\\views\\product\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|d:\\quanlybanhang\\quanlybanhang\\wwwroot\\js\\cart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|solutionrelative:quanlybanhang\\wwwroot\\js\\cart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,29 +38,77 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddProduct.cshtml",
-              "DocumentMoniker": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Product\\AddProduct.cshtml",
-              "RelativeDocumentMoniker": "Quanlybanhang\\Views\\Product\\AddProduct.cshtml",
-              "ToolTip": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Product\\AddProduct.cshtml",
-              "RelativeToolTip": "Quanlybanhang\\Views\\Product\\AddProduct.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Donhang\\Index.cshtml",
+              "RelativeDocumentMoniker": "Quanlybanhang\\Views\\Donhang\\Index.cshtml",
+              "ToolTip": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Donhang\\Index.cshtml",
+              "RelativeToolTip": "Quanlybanhang\\Views\\Donhang\\Index.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADsAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-15T02:36:29.08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-04T15:01:26.885Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "guidonhang.cshtml",
-              "DocumentMoniker": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Cart\\guidonhang.cshtml",
-              "RelativeDocumentMoniker": "Quanlybanhang\\Views\\Cart\\guidonhang.cshtml",
-              "ToolTip": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Cart\\guidonhang.cshtml",
-              "RelativeToolTip": "Quanlybanhang\\Views\\Cart\\guidonhang.cshtml",
-              "ViewState": "AQIAAIMBAAAAAAAAAAAAAI4BAABcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-15T02:31:15.553Z",
+              "Title": "DonhangController.cs",
+              "DocumentMoniker": "D:\\Quanlybanhang\\Quanlybanhang\\Controllers\\DonhangController.cs",
+              "RelativeDocumentMoniker": "Quanlybanhang\\Controllers\\DonhangController.cs",
+              "ToolTip": "D:\\Quanlybanhang\\Quanlybanhang\\Controllers\\DonhangController.cs",
+              "RelativeToolTip": "Quanlybanhang\\Controllers\\DonhangController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAgwBwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T14:51:18.5Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Donhangkh.cshtml",
+              "DocumentMoniker": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Donhang\\Donhangkh.cshtml",
+              "RelativeDocumentMoniker": "Quanlybanhang\\Views\\Donhang\\Donhangkh.cshtml",
+              "ToolTip": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Donhang\\Donhangkh.cshtml",
+              "RelativeToolTip": "Quanlybanhang\\Views\\Donhang\\Donhangkh.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T14:50:23.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\Quanlybanhang\\Quanlybanhang\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Quanlybanhang\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\Quanlybanhang\\Quanlybanhang\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Quanlybanhang\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAMEAAAAAAAAAAAAYwMwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T14:49:32.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "cart.js",
+              "DocumentMoniker": "D:\\Quanlybanhang\\Quanlybanhang\\wwwroot\\js\\cart.js",
+              "RelativeDocumentMoniker": "Quanlybanhang\\wwwroot\\js\\cart.js",
+              "ToolTip": "D:\\Quanlybanhang\\Quanlybanhang\\wwwroot\\js\\cart.js",
+              "RelativeToolTip": "Quanlybanhang\\wwwroot\\js\\cart.js",
+              "ViewState": "AQIAABAAAAAAAAAAAAAqwB4AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-04T14:10:59.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductDetail.cshtml",
+              "DocumentMoniker": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Product\\ProductDetail.cshtml",
+              "RelativeDocumentMoniker": "Quanlybanhang\\Views\\Product\\ProductDetail.cshtml",
+              "ToolTip": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Product\\ProductDetail.cshtml",
+              "RelativeToolTip": "Quanlybanhang\\Views\\Product\\ProductDetail.cshtml",
+              "ViewState": "AQIAAFQAAAAAAAAAAAASwFwAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-31T03:43:34.965Z"
             }
           ]
         }

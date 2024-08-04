@@ -352,10 +352,10 @@
                     <div class="showcase-wrapper">
                         <div class="showcase-container">
                             <div class="showcase">
-                                <a href="#" class="showcase-img-box">
+                         @*        <a href="#" class="showcase-img-box">
                                     <img src="./assets/images/products/1.jpg" alt="baby fabric shoes" width="75"
                                          height="75" class="showcase-img">
-                                </a>
+                                </a> *@
                                 <div class="showcase-content">
                                     <a href="#">
                                         <h4 class="showcase-title">baby fabric shoes</h4>
@@ -399,7 +399,9 @@
                                                 <ion-icon name="heart-outline"></ion-icon>
                                             </button>
                                             <button class="btn-Action">
-                                                <ion-icon name="eye-outline"></ion-icon>
+                                                <a href="/product/productdetail?id=@sanpham.id">
+                                                    <ion-icon name="eye-outline"></ion-icon>
+                                                </a>
                                             </button>
                                             <button class="btn-Action">
                                                 <ion-icon name="repeat-outline"></ion-icon>
@@ -410,7 +412,7 @@
                                         </div>
                                     </div>
                                     <div class="showcase-content">
-                                        <a href="#" style="display: block;overflow: hidden; white-space: nowrap; text-overflow: ellipsis;" class="showcase-category">@sanpham.tensanpham</a>
+                                        <a href="linkproductdetail" style="display: block;overflow: hidden; white-space: nowrap; text-overflow: ellipsis;" class="showcase-category">@sanpham.tensanpham</a>
                                         <h3>
                                             <a style="display: block;overflow: hidden; white-space: nowrap; text-overflow: ellipsis;" href="#" class="showcase-title">@sanpham.mota</a>
                                         </h3>

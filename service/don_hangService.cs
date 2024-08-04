@@ -48,7 +48,7 @@ namespace service
             List<don_hang> danhSachDonHang = new List<don_hang>();
             using (SqlConnection connection = DBUtils.GetDBConnection())
             {
-                string query = "select * from don_hang ORDER BY id DESC";
+                string query = "select * from don_hang";
                 SqlCommand command = new SqlCommand(query, connection);
                 connection.Open();
                 SqlDataReader reader = command.ExecuteReader();
@@ -66,6 +66,58 @@ namespace service
             }
             return danhSachDonHang;
         }
+        public don_hang GetById(int id)
+        {
+            don_hang donHang = null;
+
+            using (SqlConnection connection = DBUtils.GetDBConnection())
+            {
+                string query = "SELECT * FROM don_hang WHERE id = @id";
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@id", id);
+
+                connection.Open();
+                SqlDataReader reader = command.ExecuteReader();
+
+                if (reader.Read())
+                {
+                    donHang = new don_hang
+                    {
+                        id = Convert.ToInt32(reader["id"]),
+                        ngaytao = Convert.ToDateTime(reader["ngaytao"]),
+                        khachhang_id = Convert.ToInt32(reader["khachhang_id"]),
+                        trangthai = reader["trangthai"].ToString(),
+                        // You can add more properties if needed
+                    };
+                }
+            }
+
+            return donHang;
+        }
+        public void Update(don_hang donHang)
+        {
+            using (SqlConnection connection = DBUtils.GetDBConnection())
+            {
+                string query = "UPDATE don_hang SET ngaytao = @ngaytao, khachhang_id = @khachhang_id, trangthai = @trangthai WHERE id = @id";
+
+                SqlCommand command = new SqlCommand(query, connection);
+
+                // Add parameters to the SQL query
+                command.Parameters.AddWithValue("@ngaytao", donHang.ngaytao);
+                command.Parameters.AddWithValue("@khachhang_id", donHang.khachhang_id);
+                command.Parameters.AddWithValue("@trangthai", donHang.trangthai);
+                command.Parameters.AddWithValue("@id", donHang.id);
+
+                connection.Open();
+
+                // Execute the UPDATE query
+                int rowsAffected = command.ExecuteNonQuery();
+
+                // Optionally, you can check rowsAffected for logging or validation purposes
+                // For void method, no need to return anything
+            }
+        }
+
         public List<don_hang> LayDanhSachDonHangtheoidkhachhang(int khachhang_id)
         {
             List<don_hang> danhSachDonHang = new List<don_hang>();

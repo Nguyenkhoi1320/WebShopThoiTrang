@@ -203,7 +203,7 @@ namespace Quanlybanhang.Controllers
                 List<CartItem> cartItems = GetCartItems();
                 don_Hang.ngaytao = DateTime.Now;
                 don_Hang.khachhang_id = id;
-                don_Hang.trangthai = "đã thanh toán";
+                don_Hang.trangthai = "đã đặt hàng";
                 int iddonhang = don_HangService.ThemDonHang(don_Hang);
                 decimal tongtien = 0;
                 khach_hang khach_Hang1 = khach_hangService.LayThongTinKhachHangTheoID(id);

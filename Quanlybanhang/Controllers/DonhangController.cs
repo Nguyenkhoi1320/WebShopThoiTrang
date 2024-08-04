@@ -18,7 +18,15 @@ namespace Quanlybanhang.Controllers
             this.chi_Tiet_Don_HangService = chi_Tiet_Don_HangService;
             this.san_PhamService = san_PhamService;
         }
+        public IActionResult XacNhan(int donHangId)
+        {
+            don_hang dh = don_HangService.GetById(donHangId);
+            dh.trangthai = "đã thanh toán";
+            don_HangService.Update(dh);
 
+            return RedirectToAction("index", "donhang");
+
+        }
         public IActionResult Index(int? sotrang)
         {
             if (HttpContext.Session.GetInt32("id") != null && HttpContext.Session.GetString("hovaten") != null)
@@ -27,15 +35,11 @@ namespace Quanlybanhang.Controllers
                 string hovaten = HttpContext.Session.GetString("hovaten");
                 ViewData["id"] = id;
                 ViewData["hovaten"] = hovaten;
-                List<don_hang> listdonhang = don_HangService.LayDanhSachDonHang();
-                int soluong = 0;
-                foreach (var donhang in listdonhang)
-                {
-                    donhang.id = soluong;
-                    soluong++;
-                }
+                List<don_hang> listdonhang = don_HangService.LayDanhSachDonHang().OrderByDescending(dh => dh.ngaytao).ToList();
+                int soluong = listdonhang.Count();
+                int sptrangs = sotrang ?? 1;
                 List<modeldata> modeldataslist = new List<modeldata>();
-                PagedList.IPagedList<don_hang> palistdonahng = listdonhang.ToPagedList(sotrang ?? 1, soluong);
+                PagedList.IPagedList<don_hang> palistdonahng = listdonhang.ToPagedList(sptrangs, soluong);
                 foreach (var donhang in palistdonahng)
                 {
                     if (donhang.trangthai == "đã thanh toán")

@@ -13,7 +13,17 @@ namespace Quanlybanhang.Controllers
         {
             this.san_PhamService = san_PhamService;
             this.nhaCungCapService = nha_CungCapService;
+
         }  
+        public IActionResult ProductDetail(int id)
+        {
+            san_pham sp = san_PhamService.GetSanPhamById(id);
+            modeldata modeldata = new modeldata()
+            {
+                san_Pham = sp
+            };
+            return View(modeldata);
+        } 
         public IActionResult ListProduct()
         {
             if (HttpContext.Session.GetInt32("id") != null && HttpContext.Session.GetString("hovaten") != null)

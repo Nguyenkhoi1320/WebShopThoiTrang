@@ -27,11 +27,10 @@
                     <tbody>
                         @if (Model != null && Model.Count > 0)
                         {
-                            int id = 1;
                             foreach (var modeldataitem in Model)
                             {
                                 <tr>
-                                    <td>@id</td>
+                                    <td>@modeldataitem.DonHangs.id</td>
                                     <td>@modeldataitem.khach_hang.hovaten</td>
                                     <td>@modeldataitem.DonHangs.ngaytao.ToString("dd/MM/yyyy")</td>
                                     <td>@modeldataitem.DonHangs.trangthai</td>
@@ -39,9 +38,10 @@
                                         <a href="/chitietdonhang/Chitietdonhangkh/?donHangId=@modeldataitem.DonHangs.id" class="btn btn-primary">
                                             Xem
                                         </a>
+                                        
                                     </td>
                                 </tr>
-                                id++;
+                                
                             }
                         }
                         else

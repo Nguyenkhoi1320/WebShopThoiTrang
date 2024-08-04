@@ -18,6 +18,43 @@
         }
     });
 }
+var minusButton = document.getElementById('button-addon1');
+var plusButton = document.getElementById('button-addon2');
+var inputElement = document.getElementById('sl');
+plusButton.addEventListener("click", function () {
+    var currentValue = parseInt(inputElement.value);
+    inputElement.value = currentValue + 1;
+})
+minusButton.addEventListener("click", function () {
+    var currentValue = parseInt(inputElement.value);
+    if (currentValue > 1) {
+        inputElement.value = currentValue - 1;
+    }
+
+})
+function addTocarts(productId, productName, price, imageUrl) {
+    var inputElement = document.getElementById('sl');
+    var giaTri = inputElement.value;
+
+    $.ajax({
+        url: '/Cart/AddToCart',
+        type: 'POST',
+        data: {
+            productId: productId,
+            productName: productName,
+            price: price,
+            anhsps: imageUrl,
+            quantitys: giaTri
+        },
+        success: function (response) {
+            loadCartItems();
+        },
+        error: function (error) {
+            console.log('Error: ', error);
+            alert('Đã xảy ra lỗi khi thêm sản phẩm vào giỏ hàng. Vui lòng thử lại sau!');
+        }
+    });
+}
 function update(productId) {
     $.ajax({
         url: '/Cart/UpdateQuantity',

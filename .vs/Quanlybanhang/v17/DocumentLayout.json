@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "D:\\Quanlybanhang\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|d:\\quanlybanhang\\quanlybanhang\\views\\giamgia\\quydinhgiamgia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|solutionrelative:quanlybanhang\\views\\giamgia\\quydinhgiamgia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|d:\\quanlybanhang\\quanlybanhang\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|solutionrelative:quanlybanhang\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|d:\\quanlybanhang\\quanlybanhang\\views\\layout\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|solutionrelative:quanlybanhang\\views\\layout\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|d:\\quanlybanhang\\quanlybanhang\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|solutionrelative:quanlybanhang\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|d:\\quanlybanhang\\quanlybanhang\\views\\donhang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|solutionrelative:quanlybanhang\\views\\donhang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|d:\\quanlybanhang\\quanlybanhang\\views\\chitietdonhang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|solutionrelative:quanlybanhang\\views\\chitietdonhang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|d:\\quanlybanhang\\quanlybanhang\\views\\chitietdonhang\\chitietdonhangkh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|solutionrelative:quanlybanhang\\views\\chitietdonhang\\chitietdonhangkh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|d:\\quanlybanhang\\quanlybanhang\\views\\layout\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|solutionrelative:quanlybanhang\\views\\layout\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|d:\\quanlybanhang\\quanlybanhang\\controllers\\donhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|solutionrelative:quanlybanhang\\controllers\\donhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|d:\\quanlybanhang\\quanlybanhang\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|solutionrelative:quanlybanhang\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|d:\\quanlybanhang\\quanlybanhang\\views\\donhang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|solutionrelative:quanlybanhang\\views\\donhang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B2164B21-6DC7-46E9-A141-C19BBE62A5F2}|Quanlybanhang\\Quanlybanhang.csproj|d:\\quanlybanhang\\quanlybanhang\\views\\donhang\\donhangkh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -34,36 +62,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QuyDinhGiamGia.cshtml",
+              "DocumentMoniker": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Giamgia\\QuyDinhGiamGia.cshtml",
+              "RelativeDocumentMoniker": "Quanlybanhang\\Views\\Giamgia\\QuyDinhGiamGia.cshtml",
+              "ToolTip": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Giamgia\\QuyDinhGiamGia.cshtml",
+              "RelativeToolTip": "Quanlybanhang\\Views\\Giamgia\\QuyDinhGiamGia.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T15:34:41.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Quanlybanhang\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Quanlybanhang\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T15:34:19.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Quanlybanhang\\Quanlybanhang\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Quanlybanhang\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Quanlybanhang\\Quanlybanhang\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Quanlybanhang\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAMkAAAAAAAAAAAAawNUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T15:26:14.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "_navbar.cshtml",
+              "DocumentMoniker": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Layout\\_navbar.cshtml",
+              "RelativeDocumentMoniker": "Quanlybanhang\\Views\\Layout\\_navbar.cshtml",
+              "ToolTip": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Layout\\_navbar.cshtml",
+              "RelativeToolTip": "Quanlybanhang\\Views\\Layout\\_navbar.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACkAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T15:25:49.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Chitietdonhang\\Index.cshtml",
+              "RelativeDocumentMoniker": "Quanlybanhang\\Views\\Chitietdonhang\\Index.cshtml",
+              "ToolTip": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Chitietdonhang\\Index.cshtml",
+              "RelativeToolTip": "Quanlybanhang\\Views\\Chitietdonhang\\Index.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAACUAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T15:20:18.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Chitietdonhangkh.cshtml",
+              "DocumentMoniker": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Chitietdonhang\\Chitietdonhangkh.cshtml",
+              "RelativeDocumentMoniker": "Quanlybanhang\\Views\\Chitietdonhang\\Chitietdonhangkh.cshtml",
+              "ToolTip": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Chitietdonhang\\Chitietdonhangkh.cshtml",
+              "RelativeToolTip": "Quanlybanhang\\Views\\Chitietdonhang\\Chitietdonhangkh.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T15:20:17.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_sidebar.cshtml",
+              "DocumentMoniker": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Layout\\_sidebar.cshtml",
+              "RelativeDocumentMoniker": "Quanlybanhang\\Views\\Layout\\_sidebar.cshtml",
+              "ToolTip": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Layout\\_sidebar.cshtml",
+              "RelativeToolTip": "Quanlybanhang\\Views\\Layout\\_sidebar.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEEAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T15:18:25.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Donhang\\Index.cshtml",
               "RelativeDocumentMoniker": "Quanlybanhang\\Views\\Donhang\\Index.cshtml",
               "ToolTip": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Donhang\\Index.cshtml",
               "RelativeToolTip": "Quanlybanhang\\Views\\Donhang\\Index.cshtml",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAADsAAAA8AAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADMAAABsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-04T15:01:26.885Z"
+              "WhenOpened": "2024-08-04T15:01:26.885Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "DonhangController.cs",
               "DocumentMoniker": "D:\\Quanlybanhang\\Quanlybanhang\\Controllers\\DonhangController.cs",
               "RelativeDocumentMoniker": "Quanlybanhang\\Controllers\\DonhangController.cs",
               "ToolTip": "D:\\Quanlybanhang\\Quanlybanhang\\Controllers\\DonhangController.cs",
               "RelativeToolTip": "Quanlybanhang\\Controllers\\DonhangController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAgwBwAAAAJAAAA",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAUwFQAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-04T14:51:18.5Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Donhangkh.cshtml",
               "DocumentMoniker": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Donhang\\Donhangkh.cshtml",
               "RelativeDocumentMoniker": "Quanlybanhang\\Views\\Donhang\\Donhangkh.cshtml",
@@ -75,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "CartController.cs",
               "DocumentMoniker": "D:\\Quanlybanhang\\Quanlybanhang\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "Quanlybanhang\\Controllers\\CartController.cs",
@@ -83,12 +203,11 @@
               "RelativeToolTip": "Quanlybanhang\\Controllers\\CartController.cs",
               "ViewState": "AQIAAMEAAAAAAAAAAAAYwMwAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T14:49:32.972Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-04T14:49:32.972Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "cart.js",
               "DocumentMoniker": "D:\\Quanlybanhang\\Quanlybanhang\\wwwroot\\js\\cart.js",
               "RelativeDocumentMoniker": "Quanlybanhang\\wwwroot\\js\\cart.js",
@@ -100,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "ProductDetail.cshtml",
               "DocumentMoniker": "D:\\Quanlybanhang\\Quanlybanhang\\Views\\Product\\ProductDetail.cshtml",
               "RelativeDocumentMoniker": "Quanlybanhang\\Views\\Product\\ProductDetail.cshtml",

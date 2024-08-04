@@ -42,6 +42,46 @@ namespace Quanlybanhang.Controllers
                 PagedList.IPagedList<don_hang> palistdonahng = listdonhang.ToPagedList(sptrangs, soluong);
                 foreach (var donhang in palistdonahng)
                 {
+                    if (donhang.trangthai == "đã đặt hàng")
+                    {
+                        khach_hang khach_Hang = khach_HangService.LayThongTinKhachHangTheoID(donhang.khachhang_id);
+                        if (khach_Hang != null)
+                        {
+                            modeldata modeldata = new modeldata
+                            {
+                                DonHangs = donhang,
+                                khach_hang = khach_Hang,
+                            };
+                            modeldataslist.Add(modeldata);
+                        }
+                    }
+                    else
+                    {
+                        /// trạng thái không thanh toán
+                    }
+                }
+                return View(modeldataslist);
+            }
+            else
+            {
+                return RedirectToAction("login", "Home");
+            }
+        }
+        public IActionResult DonHangThanhToan(int? sotrang)
+        {
+            if (HttpContext.Session.GetInt32("id") != null && HttpContext.Session.GetString("hovaten") != null)
+            {
+                int id = HttpContext.Session.GetInt32("id").Value;
+                string hovaten = HttpContext.Session.GetString("hovaten");
+                ViewData["id"] = id;
+                ViewData["hovaten"] = hovaten;
+                List<don_hang> listdonhang = don_HangService.LayDanhSachDonHang().OrderByDescending(dh => dh.ngaytao).ToList();
+                int soluong = listdonhang.Count();
+                int sptrangs = sotrang ?? 1;
+                List<modeldata> modeldataslist = new List<modeldata>();
+                PagedList.IPagedList<don_hang> palistdonahng = listdonhang.ToPagedList(sptrangs, soluong);
+                foreach (var donhang in palistdonahng)
+                {
                     if (donhang.trangthai == "đã thanh toán")
                     {
                         khach_hang khach_Hang = khach_HangService.LayThongTinKhachHangTheoID(donhang.khachhang_id);

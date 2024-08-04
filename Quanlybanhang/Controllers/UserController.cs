@@ -209,5 +209,10 @@ namespace Quanlybanhang.Controllers
                 .Replace("=", "");
         }
         
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Clear();
+            return RedirectToAction("login","home");
+        }
     }
 }

@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "Quanlybanhang\\Controllers\\ProductController.cs",
               "ToolTip": "D:\\Quanlybanhang\\Quanlybanhang\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Quanlybanhang\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBQAAAAqAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABMAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-04T17:06:40.233Z",
               "EditorCaption": ""
@@ -67,8 +67,7 @@
               "RelativeToolTip": "Quanlybanhang\\Views\\Product\\ProductDetail.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAG4AAACQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-04T17:06:28.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-04T17:06:28.712Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "Quanlybanhang\\Views\\Donhang\\orderdetails.cshtml",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-04T17:03:44.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-04T17:03:44.031Z"
             },
             {
               "$type": "Document",
@@ -93,8 +91,7 @@
               "RelativeToolTip": "Quanlybanhang\\Views\\Cart\\Index.cshtml",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAACkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-04T17:02:51.303Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-04T17:02:51.303Z"
             },
             {
               "$type": "Document",
@@ -106,8 +103,7 @@
               "RelativeToolTip": "Quanlybanhang\\Controllers\\CartController.cs",
               "ViewState": "AQIAACsAAAAAAAAAAAAgwDAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T17:00:51.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-04T17:00:51.168Z"
             },
             {
               "$type": "Document",
@@ -119,8 +115,7 @@
               "RelativeToolTip": "Quanlybanhang\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAswBkAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T16:45:47.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-04T16:45:47.119Z"
             },
             {
               "$type": "Document",
@@ -132,8 +127,7 @@
               "RelativeToolTip": "Quanlybanhang\\Views\\Layout\\_main.cshtml",
               "ViewState": "AQIAAC0AAAAAAAAAAAAAAD4AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-04T16:45:15.623Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-04T16:45:15.623Z"
             },
             {
               "$type": "Document",
@@ -145,8 +139,7 @@
               "RelativeToolTip": "Quanlybanhang\\Views\\Layout\\_header.cshtml",
               "ViewState": "AQIAADMAAAAAAAAAAAAAAD0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-04T16:41:18.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-04T16:41:18.958Z"
             }
           ]
         }

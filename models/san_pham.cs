@@ -15,5 +15,8 @@ namespace models
         public string anh { get; set; }
         public int soluongcon { get; set; }
         public int nhacungcap_id { get; set; }
+        public int danhmuc_id { get; set; }
+
+        
     }
 }

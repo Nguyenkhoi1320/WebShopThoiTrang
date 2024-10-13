@@ -1,0 +1,67 @@
+﻿@model models.modeldata
+<link href="~/assets/vendors/mdi/css/materialdesignicons.min.css" rel="stylesheet" />
+<link href="~/assets/vendors/css/vendor.bundle.base.css" rel="stylesheet" />
+<link href="~/assets/css/style.css" rel="stylesheet" />
+<link href="~/css/style.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<div class="container-scroller">
+    @Html.Partial("~/Views/layout/_navbar.cshtml")
+    <div class="container-fluid page-body-wrapper">
+        @Html.Partial("~/Views/layout/_sidebar.cshtml")
+        <div class="main-panel">
+            <div class="content-wrapper">
+                <div class="page-header">
+                    <h3 class="page-title"> Thêm sản phẩm </h3>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <a href="/product/listproduct">
+                                    <button class="item-back">Quay lại</button>
+                                </a>
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 grid-margin stretch-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <form Action="/size/AddSizes" method="post">
+                                    <div class="form-group">
+                                        <label for="tenSize">Kích cỡ:</label>
+                                        <input type="text" class="form-control" id="tenSize" name="tenSize" required>
+                                    </div>                 
+                                    <div class="form-group">
+                                        <label for="sanPhamId">Chọn sản phẩm:</label>
+                                        <select class="form-control" id="sanPhamId" name="sanPhamId">
+                                            @if (Model.san_Phamlist != null && Model.san_Phamlist.Count > 0)
+                                            {
+                                                foreach (var san_pham in Model.san_Phamlist)
+                                                {
+                                                    <option value="@san_pham.id">@san_pham.tensanpham</option>
+                                                }
+                                            }
+                                        </select>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-primary">Thêm</button>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<script src="~/assets/vendors/js/vendor.bundle.base.js"></script>
+<script src="~/assets/vendors/chart.js/chart.min.js"></script>
+<script src="~/assets/js/jquery.cookie.js"></script>
+<script src="~/assets/js/off-canvas.js"></script>
+<script src="~/assets/js/hoverable-collapse.js"></script>
+<script src="~/assets/js/misc.js"></script>
+<script src="~/assets/js/dashboard.js"></script>
+<script src="~/assets/js/todolist.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

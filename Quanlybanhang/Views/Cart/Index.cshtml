@@ -20,7 +20,7 @@
                 <img src="/images/HKSHOP.png" alt="HKSHOP logo" style="width: 80px; border-radius:50%" ">
             </a>
             <div class="header-search-container">
-                <input type="search" name="search" class="search-field" placeholder="Enter your product name...">
+                <input type="search" name="search" class="search-field" placeholder="Nhập sản phẩm cần tìm kiếm...">
                 <button class="search-btn">
                     <ion-icon name="search-outline"></ion-icon>
                 </button>
@@ -29,7 +29,8 @@
                 <button class="Action-btn">
                 @if (@ViewData["hovaten"] != null)
                 {
-                        <a style="text-decoration:none;" href="/user/logout">
+                        <a style="text-decoration:none;font-size:16px" href="/user/logout">
+                            Hi!
                         @ViewData["hovaten"]
                         </a>
                 }
@@ -55,7 +56,7 @@
                 </button>
 
                 <button class="Action-btn">
-                    <a href="/donhang/orderdetails">
+                    <a href="/donhang/donhangkh">
                         <ion-icon name="heart-outline"></ion-icon>
                         <span class="count">0</span>
                     </a>
@@ -74,28 +75,28 @@
         <div class="container">
             <ul class="desktop-menu-category-list" ">
                 <li class="menu-category">
-                    <a href="#" class="menu-title">Home</a>
+                    <a href="#" class="menu-title">Trang chủ</a>
                 </li>
                 <li class="menu-category">
-                    <a href="#" class="menu-title">Categories</a>
+                    <a href="#" class="menu-title">Danh mục</a>
                 </li>
                 <li class="menu-category">
-                    <a href="#" class="menu-title">Men's</a>
+                    <a href="#" class="menu-title">Nam</a>
                 </li>
                 <li class="menu-category">
-                    <a href="#" class="menu-title">Women's</a>
+                    <a href="#" class="menu-title">Nữ</a>
                 </li>
                 <li class="menu-category">
-                    <a href="#" class="menu-title">Jewelry</a>
+                    <a href="#" class="menu-title">Trang Sức</a>
                 </li>
                 <li class="menu-category">
-                    <a href="#" class="menu-title">Perfume</a>
+                    <a href="#" class="menu-title">Nước hoa</a>
                 </li>
                 <li class="menu-category">
                     <a href="#" class="menu-title">Blog</a>
                 </li>
                 <li class="menu-category">
-                    <a href="#" class="menu-title">Hot Offers</a>
+                    <a href="#" class="menu-title">Khuyến mãi</a>
                 </li>
             </ul>
         </div>

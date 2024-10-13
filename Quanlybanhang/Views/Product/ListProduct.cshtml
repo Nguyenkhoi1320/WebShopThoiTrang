@@ -41,6 +41,7 @@
                                         <th> Mô tả </th>
                                         <th> Số lượng còn </th>
                                         <th> Nhà cung cấp </th>
+                                        <th>Loại sản phẩm </th>
                                         <th> Ảnh </th>
                                         <th>Chức năng</th>
                                     </tr>
@@ -60,6 +61,7 @@
                                                 <td style="white-space:break-spaces">@san_pham.mota</td>
                                                 <td>@san_pham.soluongcon</td>
                                                 <td>@san_pham.nhacungcap_id</td>
+                                                <td>@san_pham.danhmuc_id</td>
                                                 <td><img src="@san_pham.anh" style="width: 200px; height: 80px; border-radius:10%" alt="#"/> </td>
                                                 <td>
                                                     <a href="/product/Xoasanpham/?id=@san_pham.id" class="btn btn-danger" onclick="return confirmDelete();">

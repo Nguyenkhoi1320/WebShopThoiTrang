@@ -14,7 +14,8 @@ builder.Services.AddScoped<nhan_vienService>();
 builder.Services.AddScoped<su_dung_ma_giam_giaService>();
 builder.Services.AddScoped<lich_su_thanh_toanService>();
 builder.Services.AddScoped<NhaCungCapService>();
-
+builder.Services.AddScoped<SizeService>();
+builder.Services.AddScoped<danh_mucService>();
 
 
 // Add services to the container.

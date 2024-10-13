@@ -59,6 +59,18 @@
                                             }
                                         </select>
                                     </div>
+                                    <div class="form-group">
+                                        <label for="danhmucid">Chọn loại sản phẩm:</label>
+                                        <select class="form-control" id="danhmucid" name="danhmucid">
+                                            @if (Model.danh_Mucs != null && Model.danh_Mucs.Count > 0)
+                                            {
+                                                foreach (var danh_Muc in Model.danh_Mucs)
+                                                {
+                                                    <option value="@danh_Muc.Id">@danh_Muc.TenCategory</option>
+                                                }
+                                            }
+                                        </select>
+                                    </div>
 
                                     <button type="submit" class="btn btn-primary">Thêm</button>
                                 </form>

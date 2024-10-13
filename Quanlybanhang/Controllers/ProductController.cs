@@ -7,12 +7,14 @@ namespace Quanlybanhang.Controllers
     public class ProductController : Controller
     { private readonly san_phamService san_PhamService;
         private readonly NhaCungCapService nhaCungCapService;
+        private readonly danh_mucService danh_mucService;
 
 
-        public ProductController(san_phamService san_PhamService,NhaCungCapService nha_CungCapService)
+        public ProductController(san_phamService san_PhamService,NhaCungCapService nha_CungCapService,danh_mucService danh_MucService)
         {
             this.san_PhamService = san_PhamService;
             this.nhaCungCapService = nha_CungCapService;
+            this.danh_mucService = danh_MucService; 
 
         }  
         public IActionResult ProductDetail(int id)
@@ -58,9 +60,12 @@ namespace Quanlybanhang.Controllers
                 ViewData["id"] = id;
                 ViewData["hovaten"] = hovaten;
                 List<nha_cung_cap> nha_Cung_CapList = nhaCungCapService.GetAllNhaCungCap();
+                List<danh_muc> danh_Mucs = danh_mucService.GetAll();
+
                 modeldata modeldata = new modeldata()
                 {
                     nha_Cung_CapList = nha_Cung_CapList,
+                    danh_Mucs = danh_Mucs
                 };
                 return View(modeldata);
             }
@@ -70,8 +75,9 @@ namespace Quanlybanhang.Controllers
             }
         }
       
-        public IActionResult AddProducts(san_pham san_Pham, int nhacungcap_id) {
+        public IActionResult AddProducts(san_pham san_Pham, int nhacungcap_id, int danhmucid) {
             san_Pham.nhacungcap_id = nhacungcap_id;
+            san_Pham.danhmuc_id = danhmucid;
             san_PhamService.AddSanPham(san_Pham);
             return RedirectToAction("ListProduct", "product");
         }
